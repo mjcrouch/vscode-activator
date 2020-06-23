@@ -1,6 +1,6 @@
 # VS Code Activator Extension
 
-Automatically activates the VS Code extensions you choose on startup, regardless of their normal activation events.
+Automatically activates a configurable list of VS Code extensions on startup, regardless of their normal activation events.
 
 ## Why?
 
@@ -9,7 +9,7 @@ For example, a java extension might not activate until you open a java file. Thi
 
 However, in some workspaces, you may want to force a particular extension to activate at startup so you don't have to wait for it to start up later.
 
-The *Activator* extension allows you to define a list of extensions that you always want to be started.
+The *Activator* extension allows you to configure a list of extensions that you always want to be started.
 
 ## How?
 
