@@ -3,7 +3,7 @@
 	"displayName": "Activator",
 	"publisher": "mjcrouch",
 	"license": "MIT",
-	"description": "Automatically forces the extensions of your choice to activate on startup",
+	"description": "Automatically activates the extensions of your choice on startup",
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.46.0"
@@ -15,11 +15,12 @@
         "type": "git",
         "url": "https://github.com/mjcrouch/vscode-activator.git"
 	},
-	"keywords": ["extension", "activation", "activate", "startup"],
+	"keywords": ["extension", "activation", "activate", "startup", "start"],
 	"homepage": "https://github.com/mjcrouch/vscode-activator/blob/master/README.md",
 	"activationEvents": [
 		"*"
 	],
+	"icon": "media/icon.png",
 	"main": "./out/extension.js",
 	"contributes": {
 		"configuration": [
@@ -30,7 +31,7 @@
 					"activator.activateOnStart":
 					{
 						"type": "array",
-						"description": "A list of extension IDs to activate on startup.\nTo get the extension id, right click on the installed extension, and choose 'Copy Extension ID'",
+						"description": "A list of installed extension IDs to activate on startup.\nTo get an extension id, right click on the installed extension, and choose 'Copy Extension ID'",
 						"items": {
 							"type": "string"
 						}

@@ -1,6 +1,6 @@
 # VS Code Activator Extension
 
-Automatically forces activation of the extensions you choose on startup
+Automatically activates the VS Code extensions you choose on startup, regardless of their normal activation events.
 
 ## Why?
 
