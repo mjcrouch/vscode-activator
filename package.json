@@ -3,7 +3,7 @@
 	"displayName": "Activator",
 	"publisher": "mjcrouch",
 	"license": "MIT",
-	"description": "Automatically forces activation of the extensions you choose on startup",
+	"description": "Automatically forces the extensions of your choice to activate on startup",
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.46.0"
@@ -15,6 +15,7 @@
         "type": "git",
         "url": "https://github.com/mjcrouch/vscode-activator.git"
 	},
+	"keywords": ["extension", "activation", "activate", "startup"],
 	"homepage": "https://github.com/mjcrouch/vscode-activator/blob/master/README.md",
 	"activationEvents": [
 		"*"
